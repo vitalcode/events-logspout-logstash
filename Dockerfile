@@ -1,3 +1,3 @@
-FROM gliderlabs/logspout:latest
+FROM vitalcode/logspout
 ENV SYSLOG_FORMAT rfc3164
-RUN chmod +x /src/build.sh
+
